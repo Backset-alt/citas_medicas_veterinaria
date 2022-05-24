@@ -41,5 +41,5 @@ A continuación, se detalla el alcance por etapas con las actividades a realizar
 - Infraestructura Git: GitHub
 - Metodología de desarrollo: XP (eXtreme Programming).
 
-## Diagrama BPMN de metodologpia XP
+## Diagrama BPMN de metodología XP
 ![BPMN Diagram](https://github.com/Backset-alt/citas_medicas_veterinaria/blob/main/BMPN_driagram.jpg)
