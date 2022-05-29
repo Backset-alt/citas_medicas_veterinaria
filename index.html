@@ -10,11 +10,14 @@
 
 <body>
     <div class="grid-container">
-        <div id="sidebar">
-            <div class="logo_box"><img src="LOGO_VET.png" alt="Logo Veterinaria">
-                <h1 class="logo-text">KOKI PET</h1>
+        <div id="sidebar" class="stiky">
+            <div class="logo_box"><img src="assets/LOGO_VET.png" class="logo" alt="Logo Veterinaria">
+                <h1 class="logo-text name">KOKI PET</h1>
                 <h3 class="logo-text">"We treat your pets like family"</h3>
             </div>
+            <br>
+            <br>
+            <br>
             <div class="info">
                 <a href="#integrantes" class="url">Integrantes</a>
                 <a href="#objetivos" class="url">Objetivos</a>
@@ -27,13 +30,16 @@
 
         <main>
 
-            <h3 class="sub">Proyecto de Software Engineering Management</h3>
-            <h1>
+
+            <h2 class="sub">Proyecto de Software Engineering Management</h2>
+            <br>
+            <hr>
+            <h1 class="accentuate">
                 Desarrollo e implementación de un sistema para el agendamiento de citas médicas de una
                 veterinaria
             </h1>
-
-
+            <hr>
+            <br>
             <h2 id="integrantes">Integrantes:</h2>
 
             <ul>
@@ -407,34 +413,38 @@
                     </td>
                 </tr>
             </table>
-            Una plataforma web es una forma conveniente y eficiente de permitir que los usuarios
-            accedan a una base de datos o a una aplicación en cualquier lugar del mundo. No requiere
-            instalación de software ni mantenimiento de hardware, lo que la hace ideal para
-            organizaciones con personal remoto o con sedes en diferentes lugares.
+            <p>
+
+                Una plataforma web es una forma conveniente y eficiente de permitir que los usuarios
+                accedan a una base de datos o a una aplicación en cualquier lugar del mundo. No requiere
+                instalación de software ni mantenimiento de hardware, lo que la hace ideal para
+                organizaciones con personal remoto o con sedes en diferentes lugares.
+            </p>
 
             <br>
 
             <h3>Sistema de control de versiones: Git / Infraestructura Git: GitHub</h3>
-            Según Mozilla MDN: “Git en realidad es un sistema de control de versiones distribuido, lo
-            cual significa que se realiza una copia completa del repositorio que contiene la base de
-            código en tu computadora (y en la de todos los demás). Realizas cambios en tu propia copia,
-            y luego empujas esos cambios nuevamente al servidor, donde un administrador decidirá si
-            fusiona tus cambios con la copia maestra” <a href="#l5">[5]</a>.
+            <p>
+                Según Mozilla MDN: “Git en realidad es un sistema de control de versiones distribuido, lo
+                cual significa que se realiza una copia completa del repositorio que contiene la base de
+                código en tu computadora (y en la de todos los demás). Realizas cambios en tu propia copia,
+                y luego empujas esos cambios nuevamente al servidor, donde un administrador decidirá si
+                fusiona tus cambios con la copia maestra” <a href="#l5">[5]</a>.
 
-            Por lo que, al trabajar en equipos en un proyecto, el uso de Git es un sistema indispensable
-            muy completo que nos permite gestionar de una manera sencilla los cambios en el código de un
-            archivo para verificar las diferencias entre las diferentes versiones, restaurar versiones
-            antiguas si ocurre un error, y fusionar las distintas versiones.
+                Por lo que, al trabajar en equipos en un proyecto, el uso de Git es un sistema indispensable
+                muy completo que nos permite gestionar de una manera sencilla los cambios en el código de un
+                archivo para verificar las diferencias entre las diferentes versiones, restaurar versiones
+                antiguas si ocurre un error, y fusionar las distintas versiones.
 
-            Así mismo Mozilla MDN especifica que: “El VCS más popular es Git, junto con GitHub, un sitio
-            que proporciona alojamiento para tus repositorios y varias herramientas para trabajar con
-            ellos” <a href="#l5">[5]</a>.
+                Así mismo Mozilla MDN especifica que: “El VCS más popular es Git, junto con GitHub, un sitio
+                que proporciona alojamiento para tus repositorios y varias herramientas para trabajar con
+                ellos” <a href="#l5">[5]</a>.
 
-            Por lo que se usara Git con GitHub ya que se requiere un servidor, una manera fácil de
-            compartir los repositorios con otras personas o personas del equipo de desarrollo, y una
-            serie de herramientas útiles para administrar problemas, tareas y características.
+                Por lo que se usara Git con GitHub ya que se requiere un servidor, una manera fácil de
+                compartir los repositorios con otras personas o personas del equipo de desarrollo, y una
+                serie de herramientas útiles para administrar problemas, tareas y características.
+            </p>
             <br>
-
             <h3>Metodología de desarrollo: XP (eXtreme Programming).</h3>
             <p class="label">TABLA IV: FODA XP – Autoría propia.</p>
             <table>
@@ -490,6 +500,7 @@
                     </td>
                 </tr>
             </table>
+            <br>
             <p>
                 La metodología XP es una buena opción de desarrollo de software debido a sus fortalezas
                 y oportunidades ya que se adapta bien a los cambios y ofrece una buena base para el
@@ -519,7 +530,7 @@
             </ul>
             <h4>Fases:</h4>
 
-            <img class="bpm" src="XP_fases.png" alt="Diagrama BPMN">
+            <img class="images-small" src="assets/XP_fases.png" alt="Diagrama BPMN">
             <p class="label">Figura 1: Fases de la metodología XP – Autoría Propia.</p>
             <ul>
                 <li>Fase 1: Planificación.
@@ -542,7 +553,7 @@
                     Después de completar todos los requerimientos del cliente e implementar las funcionalidades
                     requeridas, el software debe ser útil y se puede incorporar al producto.</li>
 
-            </ul>
+            </ul><br>
             <h3>Plataforma: Web</h3>
             <p>Se usará una arquitectura monolítica.</p>
             <h4>Definición:</h4>
@@ -557,9 +568,11 @@
                 cierta parte de la funcionalidad y están desacoplados uno de otro. Sin embargo, al momento de
                 compilar el
                 código, todo se empaqueta como un solo software.</p>
+            <br>
             <h2 id="diagrama">Diagrama BPMN de metodología XP</h2>
-            <img class="bpm" src="BMPN_driagram.jpg" alt="Diagrama BPMN">
+            <img class="images" src="assets/BMPN_driagram.jpg" alt="Diagrama BPMN">
             <p class="label"> Figura 2: Diagrama BPMN de Metodología XP – Autoría Propia</p>
+            <br>
             <h2 id="bibliografia">Bibliografía</h2>
             <p id="l1"> [1] J. F. González, «Introducción a las metodologías ágiles», p. 31-49.</p>
             <p id="l2"> [2] H. Vite Cevallos, K. Montero, y J. Cuesta, «Metodologías ágiles frente a las
@@ -578,4 +591,5 @@
         </main>
     </div>
 </body>
+
 </html>
