@@ -42,4 +42,4 @@ A continuación, se detalla el alcance por etapas con las actividades a realizar
 - Metodología de desarrollo: XP (eXtreme Programming).
 
 ## Diagrama BPMN de metodología XP
-![BPMN Diagram](https://github.com/Backset-alt/citas_medicas_veterinaria/blob/main/BMPN_driagram.jpg)
+![BPMN Diagram]([https://github.com/Backset-alt/citas_medicas_veterinaria/blob/main/BMPN_driagram.jpg](https://github.com/Backset-alt/citas_medicas_veterinaria/blob/main/assets/BMPN_driagram.jpg))
